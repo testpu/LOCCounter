@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LOCCounter", "LOCCounter\LOCCounter.vcxproj", "{B9027D79-F2D0-4D3D-BF25-D736ED70284A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LOCCounterTest", "LOCCounterTest\LOCCounterTest.vcxproj", "{047B2C07-EF58-4E9B-9439-881936189073}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LOCCounterLib", "LOCCounterLib\LOCCounterLib.vcxproj", "{E7F33D39-4AE5-4618-B2AE-158D4D0FD8BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		ReleaseProf|x86 = ReleaseProf|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9027D79-F2D0-4D3D-BF25-D736ED70284A}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9027D79-F2D0-4D3D-BF25-D736ED70284A}.Debug|x86.Build.0 = Debug|Win32
+		{B9027D79-F2D0-4D3D-BF25-D736ED70284A}.Release|x86.ActiveCfg = Release|Win32
+		{B9027D79-F2D0-4D3D-BF25-D736ED70284A}.Release|x86.Build.0 = Release|Win32
+		{B9027D79-F2D0-4D3D-BF25-D736ED70284A}.ReleaseProf|x86.ActiveCfg = ReleaseProf|Win32
+		{B9027D79-F2D0-4D3D-BF25-D736ED70284A}.ReleaseProf|x86.Build.0 = ReleaseProf|Win32
+		{047B2C07-EF58-4E9B-9439-881936189073}.Debug|x86.ActiveCfg = Debug|Win32
+		{047B2C07-EF58-4E9B-9439-881936189073}.Debug|x86.Build.0 = Debug|Win32
+		{047B2C07-EF58-4E9B-9439-881936189073}.Release|x86.ActiveCfg = Release|Win32
+		{047B2C07-EF58-4E9B-9439-881936189073}.Release|x86.Build.0 = Release|Win32
+		{047B2C07-EF58-4E9B-9439-881936189073}.ReleaseProf|x86.ActiveCfg = ReleaseProf|Win32
+		{047B2C07-EF58-4E9B-9439-881936189073}.ReleaseProf|x86.Build.0 = ReleaseProf|Win32
+		{E7F33D39-4AE5-4618-B2AE-158D4D0FD8BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7F33D39-4AE5-4618-B2AE-158D4D0FD8BE}.Debug|x86.Build.0 = Debug|Win32
+		{E7F33D39-4AE5-4618-B2AE-158D4D0FD8BE}.Release|x86.ActiveCfg = Release|Win32
+		{E7F33D39-4AE5-4618-B2AE-158D4D0FD8BE}.Release|x86.Build.0 = Release|Win32
+		{E7F33D39-4AE5-4618-B2AE-158D4D0FD8BE}.ReleaseProf|x86.ActiveCfg = ReleaseProf|Win32
+		{E7F33D39-4AE5-4618-B2AE-158D4D0FD8BE}.ReleaseProf|x86.Build.0 = ReleaseProf|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code processing">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Filesystem processing">
+      <UniqueIdentifier>{de2644e5-3c1c-4a0e-950b-cd08aab2575b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CommentAnalyser.cpp">
+      <Filter>Code processing</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleParser.cpp">
+      <Filter>Code processing</Filter>
+    </ClCompile>
+    <ClCompile Include="StringAnalyser.cpp">
+      <Filter>Code processing</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Code processing</Filter>
+    </ClCompile>
+    <ClCompile Include="TokenBuilder.cpp">
+      <Filter>Code processing</Filter>
+    </ClCompile>
+    <ClCompile Include="cCommandLineParser.cpp">
+      <Filter>Filesystem processing</Filter>
+    </ClCompile>
+    <ClCompile Include="cCommonFileFilter.cpp">
+      <Filter>Filesystem processing</Filter>
+    </ClCompile>
+    <ClCompile Include="cDirectoryScanner.cpp">
+      <Filter>Filesystem processing</Filter>
+    </ClCompile>
+    <ClCompile Include="cFileNameCollection.cpp">
+      <Filter>Filesystem processing</Filter>
+    </ClCompile>
+    <ClCompile Include="cFileNameFilter.cpp">
+      <Filter>Filesystem processing</Filter>
+    </ClCompile>
+    <ClCompile Include="cLOCCounter.cpp">
+      <Filter>Filesystem processing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommentAnalyser.h">
+      <Filter>Code processing</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleParser.h">
+      <Filter>Code processing</Filter>
+    </ClInclude>
+    <ClInclude Include="StringAnalyser.h">
+      <Filter>Code processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Code processing</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenBuilder.h">
+      <Filter>Code processing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cCommandLineParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cFileFilter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\cLOCCounter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="cCommonFileFilter.h">
+      <Filter>Filesystem processing</Filter>
+    </ClInclude>
+    <ClInclude Include="cDirectoryScanner.h">
+      <Filter>Filesystem processing</Filter>
+    </ClInclude>
+    <ClInclude Include="cFileNameCollection.h">
+      <Filter>Filesystem processing</Filter>
+    </ClInclude>
+    <ClInclude Include="cFileNameFilter.h">
+      <Filter>Filesystem processing</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
