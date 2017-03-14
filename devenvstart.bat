@@ -13,8 +13,8 @@
 
 @rem --------------------set paths, etc.:
 
-@set BOOST_PATH=U:\3rdParty\boost_1_63_0
-@set CPP_UNIT_PATH=U:\3rdParty\cppunit_1.12.1
+@set BOOST_PATH=\3rdParty\boost_1_63_0
+@set CPP_UNIT_PATH=\3rdParty\cppunit_1.12.1_vc140
 
 @set INCLUDE=^
 \LOCCounter\include;^
